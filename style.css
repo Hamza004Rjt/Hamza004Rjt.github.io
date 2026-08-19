@@ -215,6 +215,14 @@ section p {
 .project-card p {
     margin: 0;
 }
+.project-tech {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #334155;
+    color: #38bdf8;
+    font-size: 14px;
+    font-weight: bold;
+}
 
 
 /* Education */
