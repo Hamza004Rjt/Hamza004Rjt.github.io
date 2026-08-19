@@ -305,6 +305,20 @@ footer {
     section h2 {
         font-size: 32px;
     }
+    /* FINAL PROFILE PHOTO FIX */
+
+.hero-content .profile-photo {
+    display: block !important;
+    width: 120px !important;
+    height: 120px !important;
+    max-width: 120px !important;
+    max-height: 120px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    border: 3px solid #38bdf8 !important;
+    margin: 0 auto 20px auto !important;
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
+}
 
     .projects-container {
         grid-template-columns: 1fr;
