@@ -344,5 +344,19 @@ footer {
     .projects-container {
         grid-template-columns: 1fr;
     }
+}
+/* Project GitHub Links */
 
+.project-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.project-link:hover {
+    color: #7dd3fc;
+    transform: translateX(4px);
 }
